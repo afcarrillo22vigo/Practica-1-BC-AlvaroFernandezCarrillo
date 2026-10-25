@@ -32,7 +32,6 @@ contract TokenContract {
         users[_receiver].tokens += _amount;
     }
 
-    // --- FUNCIONALIDAD AÑADIDA PARA EL EJERCICIO 2 ---
 
     // Comprar tokens enviando Ether (1 token = 5 Ether)
     function buyTokens(uint256 _amount) public payable {
